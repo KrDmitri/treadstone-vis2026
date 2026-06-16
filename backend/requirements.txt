@@ -1,0 +1,26 @@
+# Treadstone Backend Dependencies
+# Production-ready requirements
+
+# Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+gunicorn>=21.2.0
+
+# Request handling
+python-multipart>=0.0.12
+pydantic>=2.10.0
+
+# Database
+sqlalchemy>=2.0.36
+duckdb>=1.1.0
+
+# Data processing
+pandas>=2.2.3
+numpy>=1.26.0
+
+# AI/ML
+openai>=1.57.0
+openai-agents
+
+# Utilities
+python-dotenv>=1.0.1

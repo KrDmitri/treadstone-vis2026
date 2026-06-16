@@ -1,0 +1,21 @@
+# Local documentation / paper-review notes
+*.md
+!README.md
+
+# Deployment-only Docker artifacts
+deploy.sh
+Dockerfile
+Dockerfile.*
+.dockerignore
+docker-compose*.yml
+docker-compose*.yaml
+nginx.conf
+
+.env
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.duckdb
+backend/uploads/*
+!backend/uploads/.gitkeep
